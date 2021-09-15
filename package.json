@@ -1,0 +1,31 @@
+{
+    "name": "my_Blog",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "vuepress dev docs",
+        "build": "vuepress build docs",
+        "deploy": "bash deploy.sh"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/himcrh/my_Blog.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/himcrh/my_Blog/issues"
+    },
+    "homepage": "https://github.com/himcrh/my_Blog#readme",
+    "dependencies": {
+        "markdown-it-katex": "^2.0.3",
+        "markdown-it-latex": "^0.2.0",
+        "vuepress": "^1.8.2",
+        "vuepress-plugin-helper-live2d": "^1.0.2",
+        "vuepress-plugin-music-bar": "^3.7.6",
+        "vuepress-theme-meteorlxy": "^1.9.0"
+    }
+}
